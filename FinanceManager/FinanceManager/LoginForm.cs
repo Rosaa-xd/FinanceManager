@@ -28,5 +28,10 @@ namespace FinanceManager
             RegisterForm rf = new RegisterForm();
             rf.Show();
         }
+
+        private void btn_LogIn_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.OK;
+        }
     }
 }
