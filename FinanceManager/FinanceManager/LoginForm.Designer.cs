@@ -105,6 +105,7 @@
             this.llbl_ForgotPassword.TabIndex = 6;
             this.llbl_ForgotPassword.TabStop = true;
             this.llbl_ForgotPassword.Text = "Forgot Password?";
+            this.llbl_ForgotPassword.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbl_ForgotPassword_LinkClicked);
             // 
             // llbl_Register
             // 
@@ -116,6 +117,7 @@
             this.llbl_Register.TabIndex = 7;
             this.llbl_Register.TabStop = true;
             this.llbl_Register.Text = "Register here";
+            this.llbl_Register.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbl_Register_LinkClicked);
             // 
             // LoginForm
             // 

@@ -54,6 +54,7 @@
             // 
             // btn_RegisterNow
             // 
+            this.btn_RegisterNow.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_RegisterNow.Location = new System.Drawing.Point(95, 322);
             this.btn_RegisterNow.Name = "btn_RegisterNow";
             this.btn_RegisterNow.Size = new System.Drawing.Size(97, 23);

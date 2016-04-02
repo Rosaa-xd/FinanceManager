@@ -16,5 +16,17 @@ namespace FinanceManager
         {
             InitializeComponent();
         }
+
+        private void llbl_ForgotPassword_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            PasswordForgottenForm pff = new PasswordForgottenForm();
+            pff.Show();
+        }
+
+        private void llbl_Register_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            RegisterForm rf = new RegisterForm();
+            rf.Show();
+        }
     }
 }
