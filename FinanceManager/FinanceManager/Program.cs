@@ -14,9 +14,15 @@ namespace FinanceManager
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginForm());
+            LoginForm lf = new LoginForm();
+            if (lf.ShowDialog() == DialogResult.OK)
+            {
+                Application.Run(new FinanceManagerForm());
+            }
+            else
+            {
+                Application.Exit();
+            }
         }
     }
 }
