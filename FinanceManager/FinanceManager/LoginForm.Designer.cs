@@ -40,6 +40,7 @@
             // 
             // btn_LogIn
             // 
+            this.btn_LogIn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_LogIn.Location = new System.Drawing.Point(102, 209);
             this.btn_LogIn.Name = "btn_LogIn";
             this.btn_LogIn.Size = new System.Drawing.Size(76, 40);
@@ -49,9 +50,7 @@
             // 
             // lbl_ShowLogIn
             // 
-            this.lbl_ShowLogIn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_ShowLogIn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_ShowLogIn.AutoSize = true;
             this.lbl_ShowLogIn.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_ShowLogIn.Location = new System.Drawing.Point(90, 9);
@@ -62,6 +61,7 @@
             // 
             // lbl_ShowUsername
             // 
+            this.lbl_ShowUsername.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_ShowUsername.AutoSize = true;
             this.lbl_ShowUsername.Location = new System.Drawing.Point(41, 89);
             this.lbl_ShowUsername.Name = "lbl_ShowUsername";
@@ -71,6 +71,7 @@
             // 
             // tb_Username
             // 
+            this.tb_Username.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tb_Username.Location = new System.Drawing.Point(102, 86);
             this.tb_Username.Name = "tb_Username";
             this.tb_Username.Size = new System.Drawing.Size(141, 20);
@@ -78,6 +79,7 @@
             // 
             // lbl_ShowPassword
             // 
+            this.lbl_ShowPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_ShowPassword.AutoSize = true;
             this.lbl_ShowPassword.Location = new System.Drawing.Point(41, 134);
             this.lbl_ShowPassword.Name = "lbl_ShowPassword";
@@ -87,6 +89,7 @@
             // 
             // tb_Password
             // 
+            this.tb_Password.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tb_Password.Location = new System.Drawing.Point(102, 131);
             this.tb_Password.Name = "tb_Password";
             this.tb_Password.Size = new System.Drawing.Size(141, 20);
@@ -94,6 +97,7 @@
             // 
             // llbl_ForgotPassword
             // 
+            this.llbl_ForgotPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.llbl_ForgotPassword.AutoSize = true;
             this.llbl_ForgotPassword.Location = new System.Drawing.Point(99, 154);
             this.llbl_ForgotPassword.Name = "llbl_ForgotPassword";
@@ -104,6 +108,7 @@
             // 
             // llbl_Register
             // 
+            this.llbl_Register.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.llbl_Register.AutoSize = true;
             this.llbl_Register.Location = new System.Drawing.Point(202, 236);
             this.llbl_Register.Name = "llbl_Register";
