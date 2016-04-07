@@ -28,62 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabControl1.SuspendLayout();
+            this.tc_FinanceManager = new System.Windows.Forms.TabControl();
+            this.tp_Account = new System.Windows.Forms.TabPage();
+            this.tp_MainBankAccount = new System.Windows.Forms.TabPage();
+            this.tc_FinanceManager.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // tc_FinanceManager
             // 
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.tc_FinanceManager.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(-2, -2);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(857, 534);
-            this.tabControl1.TabIndex = 0;
+            this.tc_FinanceManager.Controls.Add(this.tp_Account);
+            this.tc_FinanceManager.Controls.Add(this.tp_MainBankAccount);
+            this.tc_FinanceManager.Location = new System.Drawing.Point(-2, -2);
+            this.tc_FinanceManager.Name = "tc_FinanceManager";
+            this.tc_FinanceManager.SelectedIndex = 0;
+            this.tc_FinanceManager.Size = new System.Drawing.Size(857, 534);
+            this.tc_FinanceManager.TabIndex = 0;
             // 
-            // tabPage1
+            // tp_Account
             // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(849, 508);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tp_Account.Location = new System.Drawing.Point(4, 22);
+            this.tp_Account.Name = "tp_Account";
+            this.tp_Account.Padding = new System.Windows.Forms.Padding(3);
+            this.tp_Account.Size = new System.Drawing.Size(849, 508);
+            this.tp_Account.TabIndex = 0;
+            this.tp_Account.Text = "Account";
+            this.tp_Account.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // tp_MainBankAccount
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(849, 508);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.tp_MainBankAccount.Location = new System.Drawing.Point(4, 22);
+            this.tp_MainBankAccount.Name = "tp_MainBankAccount";
+            this.tp_MainBankAccount.Padding = new System.Windows.Forms.Padding(3);
+            this.tp_MainBankAccount.Size = new System.Drawing.Size(849, 508);
+            this.tp_MainBankAccount.TabIndex = 1;
+            this.tp_MainBankAccount.Text = "<BankAccountNO>";
+            this.tp_MainBankAccount.UseVisualStyleBackColor = true;
             // 
             // FinanceManagerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(851, 528);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tc_FinanceManager);
             this.Name = "FinanceManagerForm";
             this.Text = "Finance Manager";
-            this.tabControl1.ResumeLayout(false);
+            this.tc_FinanceManager.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabControl tc_FinanceManager;
+        private System.Windows.Forms.TabPage tp_Account;
+        private System.Windows.Forms.TabPage tp_MainBankAccount;
     }
 }
